@@ -1,0 +1,7 @@
+query UserMeta {
+    me {
+        id
+        name
+        email
+    }
+}

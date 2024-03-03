@@ -1,0 +1,10 @@
+mutation Mutation($credential: createUser!) {
+    createUser(credential: $credential) {
+        token
+        user {
+            id
+            name
+            email
+        }
+    }
+}

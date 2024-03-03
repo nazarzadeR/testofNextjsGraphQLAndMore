@@ -1,0 +1,4 @@
+fragment UserMeta on User {
+    name
+    email
+}
